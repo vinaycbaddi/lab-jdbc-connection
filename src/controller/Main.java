@@ -5,9 +5,10 @@ import java.sql.Connection;
 import utility.ConnectionManager;
 
 public class Main {
-	public static void main(String args[]) {
+	public static void main(String args[]) throws Exception {
 		
-	// Fill your code
+	ConnectionManager cm=new ConnectionManager();
+	cm.getConnection();
 		
 	}
 }
